@@ -2,17 +2,17 @@
 
 Summary:	Low-level containers for storing sets of integer ranges
 Name:		R-%{packname}
-Version:	1.16.2
+Version:	1.18.0
 Release:	1
 License:	Artistic 2.0
 Group:		Applications/Engineering
 Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	15a84d7a62a29eec96f57da1c2db7629
+# Source0-md5:	92da8877d5e5585af501f90c7e672690
 URL:		http://bioconductor.org/packages/release/bioc/html/IRanges.html
-BuildRequires:	R-BiocGenerics
+BuildRequires:	R-BiocGenerics >= 0.5.6
 BuildRequires:	R
 BuildRequires:	texlive-latex
-Requires:	R-BiocGenerics
+Requires:	R-BiocGenerics >= 0.5.6
 Requires:	R
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
