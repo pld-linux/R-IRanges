@@ -3,7 +3,7 @@
 Summary:	Low-level containers for storing sets of integer ranges
 Name:		R-%{packname}
 Version:	1.20.6
-Release:	1
+Release:	2
 License:	Artistic 2.0
 Group:		Applications/Engineering
 Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
